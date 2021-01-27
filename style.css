@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+body{
+    padding: 100px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.submit-area{
+    margin-top: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px rgb(128 128 128 / 40%);
+    border-radius: 10px;
+    padding: 3rem;
+}
+#transaction-area /*,#login_area*/{
+    display: none;
+}
+.box{
+    box-sizing: border-box;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    margin: 0 20px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
